@@ -38,7 +38,7 @@ const SignUpForm = () => {
 
     try {
       const response = await axios.post(
-        "https://sign-in-backend-gemh.vercel.app/api/v1/users/register",
+        "https://sign-in-backend-rho.vercel.app/api/v1/users/register",
         formData,
         {
           headers: {
