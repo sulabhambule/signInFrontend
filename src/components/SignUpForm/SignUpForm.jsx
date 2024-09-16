@@ -55,7 +55,7 @@ const SignUpForm = () => {
       setLoading(false); // Stop loading
       console.error(
         "Error:",
-        error.response ? error.response.data : error.message
+        error.response ? error.response.data : error.message  
       );
       setErrorMessage(
         error.response && error.response.data.message
